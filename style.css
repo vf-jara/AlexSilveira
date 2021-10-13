@@ -240,10 +240,20 @@ body{
 
 
 /* CURSOS */
+.banner-agendamento{
+    height:80px;
+    width:100%;
+    background-image: url(src/banner-site-grande.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 @media (max-width:767px){ 
     .cursos-position{
         flex-direction: column-reverse;
+    }
+    .banner-agendamento{
+        background-image: url(src/banner-site-.png);
     }
 }
 .cursos{

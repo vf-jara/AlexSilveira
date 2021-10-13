@@ -11,8 +11,12 @@
 </script>
 
 <?php if (have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
+<a href="https://materiais.alexsilveira.com/lista-de-espera">
+  <div class="banner-agendamento mb-4">
+  </div>
+  </a>
 <div class="container">
+ 
   <div class="row mb-5 mt-1">
 
     <!-- ABERTURA DE REPETIDOR MODELO CMB2 PARA CARDS DE CURSO-->
