@@ -1,10 +1,10 @@
 /*
-Theme Name: Theme_Alex_Silveira
+Theme Name: Alex_theme
 Theme URI: http://alexsilveira.com
 Author: Index Code
 Author URI: http://indexcode.com/
 Description: Tema criado para o site alexsilveira.com
-Version: 3.0
+Version: 1.0
 */
 
 
@@ -241,6 +241,7 @@ body{
 
 /* CURSOS */
 .banner-agendamento{
+    margin-top: -20px;
     height:80px;
     width:100%;
     background-image: url(src/banner-site-grande.png);

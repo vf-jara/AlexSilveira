@@ -11,7 +11,7 @@
 </script>
 
 <?php if (have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<a href="https://materiais.alexsilveira.com/lista-de-espera">
+<a href="https://materiais.alexsilveira.com/lista-de-espera" target="_blank">
   <div class="banner-agendamento mb-4">
   </div>
   </a>
