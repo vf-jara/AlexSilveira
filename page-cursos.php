@@ -22,7 +22,7 @@
     <!-- ABERTURA DE REPETIDOR MODELO CMB2 PARA CARDS DE CURSO-->
       <?php $cursos = get_field('curso');
 
-
+    //ORDENAÇÃO DOS CURSOS DE ACORDO COM A DATA
       usort($cursos, function($a1, $a2) {
         $date_v1 = str_replace('/', '-', $a1['data_curso']);
         $date_v2 = str_replace('/', '-', $a2['data_curso']);
@@ -33,11 +33,11 @@
         });   
       ?>
 
+        <!-- EXIBIÇÃO DOS CARDS DE CURSO AINDA NÃO REALIZADOS-->
       <?php if(isset($cursos)) {foreach($cursos as $curso) { 
         if($curso['curso_realizado']== false) {
         ?>
       
-
 
         <!-- MOLDE DE EXIBIÇÃO DE CURSO -->
 
@@ -60,17 +60,15 @@
       </div>
 <!-- FIM DO MOLDE-->
 
-
-
     <?php } } }?>         
 <!-- FIM DA REPETIÇÃO -->
+
+<!--EXIBIÇÃO DOS CURSOS JÁ REALIZADOS-->
 
 <?php if(isset($cursos)) {foreach($cursos as $curso) { 
         if($curso['curso_realizado']== true) {
         ?>
       
-
-
         <!-- MOLDE DE EXIBIÇÃO DE CURSO -->
 
       <div id="coluna-curso" class="col-md-4 mb-3 position-relative" >
@@ -78,7 +76,6 @@
         <!-- MARCAÇÃO DE CURSO JÁ REALIZADO -->
 
           <div class="realizado-badge">CURSO REALIZADO</div>
-
 
         <div id="card-curso" class="cursos position-relative" style="background-image: url(<?php echo $curso['bg_curso'];?>)">
           <div class="local-badge position-absolute top-0 start-100"><?php echo $curso['local_curso']; ?></div>
