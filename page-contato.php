@@ -37,7 +37,7 @@
       <!--Coluna da Direita com formulário-->
       <div class="col-md-6 p-3">
         <div class="form-container title-slideRight">
-          <form name="contato" method="POST" action="<?php echo get_template_directory_uri(); ?>/email.php">
+         <form name="contato" method="POST" action="<?php echo get_template_directory_uri(); ?>/email.php">
             <div class="texto-form mb-3">
               <label for="nome"></label>
               <input type="text" id="nome" name="nome" class="text-center" placeholder="Seu nome" required="required">
@@ -51,7 +51,7 @@
               <textarea name="mensagem" id="mensagem" placeholder="Deixe sua mensagem"></textarea>
             </div>
             
-            <input type="submit" class="btn btn-1">
+            <input type="submit" class="btn btn-1"> 
            <!-- <div class="g-recaptcha mt-3" data-sitekey="6LexxjgcAAAAAO2kHwW-NtfxO_eXWmJVExYLu06p"></div> -->
           </form>
         </div>
