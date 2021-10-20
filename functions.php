@@ -183,11 +183,19 @@ function cmb2_fields_cursos(){
     'name'=> 'Data',
     'id' => 'data_curso',
     'type'=> 'text',
+    'description'=>'Preencher da maneira que preferir que apareça no Card'
+  ]);
+  $cmb->add_group_field($cursos,[
+    'name'=> 'Data Inicial',
+    'id' => 'data_inicial',
+    'type'=> 'text',
+    'description'=>'Preencher no formato dd/mm/aaaa para propósitos de ordenação',
   ]);
   $cmb->add_group_field($cursos,[
     'name'=> 'Investimento',
     'id' => 'preco_curso',
     'type'=> 'text',
+    'description'=>'Formato XXX,XX sem o símbolo de R$ que é inserido automaticamente'
   ]);
   $cmb->add_group_field($cursos,[
     'name'=> 'Link para a página',
@@ -207,6 +215,7 @@ function cmb2_fields_cursos(){
     'name'=> 'Curso Realizado?',
     'id' => 'curso_realizado',
     'type'=> 'checkbox',
+    'description'=>'marcar para adicionar a label de curso realizado'
   ]);
 
 }

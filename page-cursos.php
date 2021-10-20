@@ -24,8 +24,8 @@
 
     //ORDENAÇÃO DOS CURSOS DE ACORDO COM A DATA
       usort($cursos, function($a1, $a2) {
-        $date_v1 = str_replace('/', '-', $a1['data_curso']);
-        $date_v2 = str_replace('/', '-', $a2['data_curso']);
+        $date_v1 = str_replace('/', '-', $a1['data_inicial']);
+        $date_v2 = str_replace('/', '-', $a2['data_inicial']);
         $v1 = strtotime($date_v1);
         $v2 = strtotime($date_v2);
         //return $v1 - $v2;
