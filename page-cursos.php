@@ -41,13 +41,13 @@
 
         <!-- MOLDE DE EXIBIÇÃO DE CURSO -->
 
-      <div id="coluna-curso" class="col-md-4 mb-3 position-relative" >
+      <div id="coluna-curso" class="col-md-4 mx-auto mb-3 position-relative" >
 
-        <div id="card-curso" class="cursos position-relative" style="background-image: url(<?php echo $curso['bg_curso'];?>)">
+        <div id="card-curso" class="cursos position-relative" style="background-position: right center; background-size: cover; background-image: url(<?php echo $curso['bg_curso'];?>)">
           <div class="local-badge position-absolute top-0 start-100"><?php echo $curso['local_curso']; ?></div>
-            <h3 class="titulo-cursos"><?php echo $curso['titulo_curso']; ?>
+            <h4 class="titulo-cursos"><?php echo $curso['titulo_curso']; ?>
               <hr>
-            </h3>
+            </h4>
             <div class="dados-curso">
               <ul class="texto-cursos list-unstyled">
                 <li><strong>Local: </strong><span class="badge rounded-pill bg-warning text-dark"><?php echo $curso['local_curso']; ?></span></li>
@@ -71,17 +71,17 @@
       
         <!-- MOLDE DE EXIBIÇÃO DE CURSO -->
 
-      <div id="coluna-curso" class="col-md-4 mb-3 position-relative" >
+      <div id="coluna-curso" class="col-md-4 mx-auto mb-3 position-relative" >
 
         <!-- MARCAÇÃO DE CURSO JÁ REALIZADO -->
 
-          <div class="realizado-badge">CURSO REALIZADO</div>
+        <a href="https://materiais.alexsilveira.com/lista-de-espera" target="_blank"> <img class="imagem-de-curso-realizado" src="<?php echo get_stylesheet_directory_uri(); ?>/src/curso-realizado.png"></a>
 
-        <div id="card-curso" class="cursos position-relative" style="background-image: url(<?php echo $curso['bg_curso'];?>)">
+        <div id="card-curso" class="cursos position-relative" style="background-position: right center; background-size: cover; background-image: url(<?php echo $curso['bg_curso'];?>)">
           <div class="local-badge position-absolute top-0 start-100"><?php echo $curso['local_curso']; ?></div>
-            <h3 class="titulo-cursos"><?php echo $curso['titulo_curso']; ?>
+            <h4 class="titulo-cursos"><?php echo $curso['titulo_curso']; ?>
               <hr>
-            </h3>
+            </h4>
             <div class="dados-curso">
               <ul class="texto-cursos list-unstyled">
                 <li><strong>Local: </strong><span class="badge rounded-pill bg-warning text-dark"><?php echo $curso['local_curso']; ?></span></li>
@@ -92,6 +92,8 @@
           <a href="<?php echo $curso['link_curso']; ?>" target="_blank" class="btn btn-1 btn-position">Saiba mais</a>
         </div>
       </div>
+
+      
 <!-- FIM DO MOLDE-->
 
 

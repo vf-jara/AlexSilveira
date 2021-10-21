@@ -11,9 +11,9 @@
 <article>
   <div class="container">
     <div class="my-5">
-      <h1 class="display-5 titulo-principal px-5"><?php the_title(); ?></h1>
+      <h1 class="display-5 titulo-principal px-4"><?php the_title(); ?></h1>
     </div>
-    <div class="texto-geral justified mb-5 pb-5 px-3 mx-auto">
+    <div class="texto-geral justified mb-5 pb-5 px-2 mx-auto">
       <?php the_content(); ?>
     </div> 
   </div>
