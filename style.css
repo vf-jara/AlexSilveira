@@ -105,6 +105,7 @@ body{
 }
 .navbar{ /*HEIGHT */
     height:87px;
+    z-index:9999;
 }
 .navbar .navbar-brand img{ /* HEIGH DA BRAND */
     height: 80px;
@@ -272,7 +273,7 @@ body{
 }
 
 .imagem-de-curso-realizado{
-    z-index: 9999;
+    z-index: 9998;
     position:absolute;
     height:100%;
     width:85%;
