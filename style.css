@@ -110,6 +110,11 @@ body{
 .navbar .navbar-brand img{ /* HEIGH DA BRAND */
     height: 80px;
 }
+@media (max-width:767px){
+    .navbar .navbar-brand img{
+        height:70px;
+    }
+}
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{ /* COR DA PAGINA ATIVA */
     color:var(--cor-secundaria);
 }

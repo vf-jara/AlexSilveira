@@ -7,11 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Alex Silveira - Excelência em adequação postural</title>
     <meta name="description" content="">
-    <meta property="og:image" content="src/android-chrome-512x512.png">
+    <meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>src/logo01.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_stylesheet_directory_uri(); ?>/src/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_stylesheet_directory_uri(); ?>/src/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_stylesheet_directory_uri(); ?>/src/favicon-16x16.png">
     <link rel="manifest" href="<?php echo get_stylesheet_directory_uri(); ?>/src/site.webmanifest">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +48,7 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-nav">
             <div class="container">
                 <!--Logo-->
-                <a class="navbar-brand" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/Logo-PRovisoria.png"></a>
+                <a class="navbar-brand" href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/logo01.png"></a>
                 <!--toggler-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal"
                     aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Toggle navigation">

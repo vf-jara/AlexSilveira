@@ -5,7 +5,7 @@
                 <div class="col-md-4 mb-5">
                     <div>
                         <div>
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/Logo-PRovisoria-branca2.png" class="img-fluid mx-auto d-block" style="max-width: 250px;">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/logo-vertical-clara.png" class="img-fluid mx-auto d-block" style="max-width: 200px;">
                         </div>
                         <div class="text-center mt-3">
                           <!--  <strong>Endereço: </strong>Rua Mario Cesar Machado dos Santos, nº 698 - Fátima, Joinville/SC CEP: 89229-335<br>
