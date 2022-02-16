@@ -41,7 +41,7 @@
 
         <!-- MOLDE DE EXIBIÇÃO DE CURSO -->
 
-      <div id="coluna-curso" class="col-md-4 mx-auto mb-3 position-relative" >
+      <div id="coluna-curso" class="col-md-4 mb-3 position-relative" >
 
         <div id="card-curso" class="cursos position-relative" style="background-position: right center; background-size: cover; background-image: url(<?php echo $curso['bg_curso'];?>)">
           <div class="local-badge position-absolute top-0 start-100"><?php echo $curso['local_curso']; ?></div>
@@ -71,7 +71,7 @@
       
         <!-- MOLDE DE EXIBIÇÃO DE CURSO -->
 
-      <div id="coluna-curso" class="col-md-4 mx-auto mb-3 position-relative" >
+      <div id="coluna-curso" class="col-md-4 mb-3 position-relative" >
 
         <!-- MARCAÇÃO DE CURSO JÁ REALIZADO -->
 
