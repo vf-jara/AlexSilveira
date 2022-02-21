@@ -4,7 +4,7 @@ Theme URI: http://alexsilveira.com
 Author: Index Code
 Author URI: http://indexcode.com/
 Description: Tema criado para o site alexsilveira.com
-Version: 1.0
+Version: 2.0
 */
 
 
@@ -371,6 +371,9 @@ body{
 }
 
 /* GALERIA */
+.menu-galerias{
+    margin-bottom: 250px;
+}
 .box-galeria{
     padding: 5px;
     height:auto;
