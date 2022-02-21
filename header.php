@@ -73,6 +73,9 @@
                             <a id="nav-blog" class="nav-link" href="/blog/">Blog</a>
                         </li>
                         <li class="nav-item">
+                            <a id="nav-materiais" class="nav-link" href="/materiais/">Materiais</a>
+                        </li>
+                        <li class="nav-item">
                             <a id="nav-contato" class="nav-link" href="/contato/">Contato</a>
                         </li>
                     </ul>

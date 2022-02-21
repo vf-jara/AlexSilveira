@@ -195,7 +195,7 @@ function cmb2_fields_cursos(){
     'name'=> 'Investimento',
     'id' => 'preco_curso',
     'type'=> 'text',
-    'description'=>'Formato XXX,XX sem o símbolo de R$ que é inserido automaticamente'
+    'description'=>'Formato XXX,XX sem o símbolo de R$, que é inserido automaticamente'
   ]);
   $cmb->add_group_field($cursos,[
     'name'=> 'Link para a página',
@@ -218,6 +218,57 @@ function cmb2_fields_cursos(){
     'description'=>'marcar para adicionar a label de curso realizado'
   ]);
 
+}
+
+//função para preenchimento de Materiais
+add_action('cmb2_admin_init', 'cmb2_fields_materiais');
+function cmb2_fields_materiais(){
+  $cmb = new_cmb2_box([
+    'id'=>'materiais_box',
+    'title'=>'Materiais',
+    'object_types'=>['page'],
+    'show_on'=>[
+      'key'=>'page-template',
+      'value'=>'page-materiais.php'
+    ],
+  ]);
+
+  $materiais = $cmb->add_field([
+    'name'=> 'Box de Materiais',
+    'id' => 'materiais',
+    'type'=> 'group',
+    'repeatable' => true,
+    'options'=>[
+      'group_title' => 'Material {#}',
+      'add_button' => 'Adicionar Novo Material',
+      'remove_button' => 'Remover',
+    ],
+  ]);
+  $cmb->add_group_field($materiais,[
+    'name'=> 'Título',
+    'id' => 'titulo_material',
+    'type'=> 'text',
+  ]);
+
+  $cmb->add_group_field($materiais,[
+    'name'=> 'Descrição',
+    'id' => 'txt_material',
+    'type'=> 'textarea',
+  ]);
+  $cmb->add_group_field($materiais,[
+    'name'=> 'Mockup do material',
+    'description'=> '', 
+    'id' => 'img_material',
+    'type'=> 'file',
+    'options' => [
+      'url' => false,
+    ]
+  ]);
+  $cmb->add_group_field($materiais,[
+    'name'=> 'Link para a landingpage',
+    'id' => 'link_material',
+    'type'=> 'text_url',
+  ]);
 }
 
 add_action('cmb2_admin_init', 'cmb2_fields_galerias');

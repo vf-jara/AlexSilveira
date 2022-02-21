@@ -170,7 +170,7 @@ body{
 }
 .btn-2:hover{
     box-shadow: inset 12em 0 0 0 var(--cor-principal);
-    border: 0.125em solid var(--cor-secundaria);
+    border: 0.125em solid var(--cor-principal);
     cursor: pointer;
     color: #fff;
 }
@@ -302,7 +302,19 @@ body{
     border-radius: 0 .5em 0 0;
 }
 
+/* CARDS MATERIAIS */
+.card-img-material{
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
 
+}
+@media screen and (max-width:767px){
+    .card-img-material{
+        height: 265px;
+        max-height: 265px; 
+    }
+}
 /* CARDS BLOG */
 .card{
     margin: 0.5rem;
