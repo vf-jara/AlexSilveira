@@ -12,7 +12,7 @@
 
 <?php if (have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-<div class="container menu-galerias" >
+<div class="container" style="margin-bottom:250px;">
   <div class="row mt-1">
 
 <!-- ABERTURA DE REPETIDOR MODELO CMB2 PARA CARDS DE GALERIA-->
