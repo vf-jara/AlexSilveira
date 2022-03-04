@@ -25,12 +25,11 @@
           </div>
           <div class="card-body">
             <h5 class="card-title"><?php echo $material['titulo_material'] ?></h5>
-            <div class="card-container">
+            <div class="card-container mb-2">
             <p class="card-text"><?php echo $material['txt_material'] ?></p>
             </div>
-            <ul class="list-group list-group-flush data-position pb-3">
-            </ul>
-            <a href="<?php echo $material['link_material'] ?>" target="_blank" class="btn btn-2 btn-position">Baixar Agora</a>
+
+            <a href="<?php echo $material['link_material'] ?>" target="_blank" class="btn btn-2">Baixar Agora</a>
           </div>
         </div>
       </div>
